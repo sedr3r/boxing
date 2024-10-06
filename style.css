@@ -146,7 +146,7 @@ li {
 
 #speedcurve {
     border-radius: 20px;
-    width: 420px;
+    width: 680px;
 }
 
 video {
@@ -178,4 +178,14 @@ a[class=content], a[class=contentlast] {
     margin-left: auto;
     margin-right: auto;
     width: 800px;
+}
+
+#dc {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.foot {
+    text-align: right;
+    margin: 40px;
 }
