@@ -32,6 +32,8 @@ img {
 
 .heading {
     font-size: 50px;
+    margin-top: 50px;
+    letter-spacing: 5px;
 }
 
 .main {
@@ -83,6 +85,7 @@ a:hover {
 
 .guidebody {
     width: 40vw;
+    margin-left: 40px;
 }
 
 li {
@@ -94,12 +97,21 @@ li {
     flex-direction: column;
     margin: 50px 0px 40px 0px;
     background-color: #0e0e0e;
-    padding: 40px;
+    padding: 40px 80px 40px 80px;
     border-radius: 20px;
     height: 335px;
     align-items: center;
     justify-content: center;
 }
+
+#contents {
+    position: fixed;
+    top: 11vh; /* Adjust this value as needed */
+    left: 10vw; /* Adjust this value as needed */
+    width: 200px; /* Adjust this value as needed */
+    padding: 10px; /* Optional: for spacing */
+}
+
 
 .content {
     margin: 10px 0px 10px 0px;
@@ -190,7 +202,6 @@ a[class=content], a[class=contentlast] {
 .guide {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .main2 {
