@@ -1,0 +1,174 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: #f1f1f1;
+    font-family: "Afacad Flux";
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.head {
+    height: 10vh;
+    width: 100vw;
+    background-color: #ffffff0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+#mainhead {
+    display: flex;
+    margin: 20px 0 10px 0;
+}
+
+img {
+    margin-right: 20px;
+}
+
+.heading {
+    font-size: 50px;
+}
+
+.main {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon {
+    height: 100px;
+    width: 100px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#boxing {
+    text-shadow: 0px 0px 15px white;
+    color: #53f9d2;
+}
+
+a {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    text-shadow: 0px 0px 15px white;
+    color: #53f9d2;
+}
+
+::selection {
+    color: #1e0322;
+    background: #c5f3e8;
+}
+
+#current {
+    font-weight: bold;
+}
+
+.guide {
+    margin: 40px;
+}
+
+li {
+    font-size: 20px;
+}
+
+#contents {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 40px 0px;
+    background-color: #0e0e0e;
+    padding: 20px 20px 20px 40px;
+    border-radius: 20px;
+}
+
+.content {
+    margin: 10px 0px 10px 0px;
+    font-size: 15px;
+}
+
+.contentlast {
+    margin: 10px 0px 20px 0px;
+    font-size: 15px;
+}
+
+#contentshead {
+    font-size: 30px;
+}
+
+.ref {
+    margin: 0;
+    text-decoration: underline;
+    color: #00ffc3;
+}
+
+.inlinelink {
+    margin: 0;
+    text-decoration: underline;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f12c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #000000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#speedcurve {
+    border-radius: 20px;
+    width: 420px;
+}
+
+video {
+    border-radius: 20px;
+}
+
+.profile {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+iframe {
+    width: 100vw;
+    height: 100vh;
+    border: none;
+}
+
+a[class=content]:hover, a[class=contentlast]:hover {
+    text-decoration: underline;
+}
+
+a[class=content], a[class=contentlast] {
+    transition: ease-in-out 0.2s;
+}
