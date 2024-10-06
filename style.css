@@ -180,6 +180,18 @@ a[class=content], a[class=contentlast] {
     width: 800px;
 }
 
+.guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main2 {
+    display: block;
+    margin-left: 24px;
+    margin-right: auto;
+}
+
 #dc {
     margin: 0;
     text-decoration: underline;
