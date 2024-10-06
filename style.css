@@ -81,6 +81,10 @@ a:hover {
     margin: 40px;
 }
 
+.guidebody {
+    width: 40vw;
+}
+
 li {
     font-size: 20px;
 }
@@ -90,8 +94,11 @@ li {
     flex-direction: column;
     margin: 50px 0px 40px 0px;
     background-color: #0e0e0e;
-    padding: 20px 20px 20px 40px;
+    padding: 40px;
     border-radius: 20px;
+    height: 335px;
+    align-items: center;
+    justify-content: center;
 }
 
 .content {
@@ -200,4 +207,9 @@ a[class=content], a[class=contentlast] {
 .foot {
     text-align: right;
     margin: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
 }
