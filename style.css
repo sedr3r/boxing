@@ -88,7 +88,7 @@ li {
 #contents {
     display: flex;
     flex-direction: column;
-    margin: 0px 0px 40px 0px;
+    margin: 50px 0px 40px 0px;
     background-color: #0e0e0e;
     padding: 20px 20px 20px 40px;
     border-radius: 20px;
