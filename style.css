@@ -177,7 +177,7 @@ a[class=content], a[class=contentlast] {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 80vw;
 }
 
 .guide {
