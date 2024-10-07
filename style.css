@@ -132,11 +132,12 @@ li {
 
 #speedcurve {
     border-radius: 20px;
-    width: 680px;
+    width: 300px;
 }
 
 video {
     border-radius: 20px;
+    width: 300px;
 }
 
 .profile {
@@ -217,5 +218,13 @@ a[class=content], a[class=contentlast] {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #speedcurve {
+        width: 680px;
+    }
+
+    video {
+        width: 680px;
     }
 }
