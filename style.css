@@ -182,6 +182,10 @@ a[class=content], a[class=contentlast] {
     margin: 40px;
 }
 
+.container {
+    margin-left: 4px;
+}
+
 /* Larger screens CSS */
 @media screen and (min-width: 1115px) {
     .heading {
