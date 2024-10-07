@@ -106,6 +106,7 @@ li {
 .ref, .inlinelink {
     text-decoration: underline;
     color: #00ffc3;
+    margin: 0;
 }
 
 /* Scrollbar */
