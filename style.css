@@ -229,3 +229,10 @@ a[class=content], a[class=contentlast] {
         width: 680px;
     }
 }
+
+
+@media screen and (max-width: 507px) {
+    .guide {
+        margin: 0;
+    }
+}
