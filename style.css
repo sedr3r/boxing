@@ -17,10 +17,6 @@ body {
     align-items: center;
 }
 
-.headcontainer {
-    background-color: green;
-}
-
 .main {
     display: flex;
     flex-direction: column;
@@ -184,7 +180,6 @@ a[class=content], a[class=contentlast] {
 
     .guidebody {
         width: 40vw;
-        background-color: red;
     }
 
     #contents {
