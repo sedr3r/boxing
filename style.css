@@ -199,6 +199,24 @@ a[class=content], a[class=contentlast] {
     text-align: center;
 }
 
+.playerscontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+table, tr, td, th{
+    border: solid 0.5px rgba(255, 255, 255, 0.137);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 7.5px;
+    background-color: #0e0e0e;
+}
+
+th {
+    background-color: #2b2b2b;
+}
+
 /* Larger screens CSS */
 @media screen and (min-width: 1115px) {
     .heading {
