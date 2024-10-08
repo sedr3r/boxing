@@ -175,7 +175,7 @@ a[class=content], a[class=contentlast] {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80vh;
+    height: 90vh;
     align-items: center;
 }
 
