@@ -175,7 +175,7 @@ a[class=content], a[class=contentlast] {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80vh;
+    height: 90vh;
     align-items: center;
 }
 
@@ -197,6 +197,11 @@ a[class=content], a[class=contentlast] {
 .callout {
     line-height: 5px;
     text-align: center;
+}
+
+.hof {
+    display: flex;
+    height: 90vh;
 }
 
 /* Larger screens CSS */
