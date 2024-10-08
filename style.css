@@ -2,7 +2,7 @@
 body {
     background-color: rgb(0, 0, 0);
     color: #f1f1f1;
-    font-family: "Afacad Flux";
+    font-family: "Afacad Flux", Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -169,6 +169,34 @@ a[class=content], a[class=contentlast] {
 
 .container {
     margin-left: 4px;
+}
+
+.music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+.debug {
+    background-color: red;
+}
+
+.debugnest {
+    background-color: greenyellow;
+}
+
+.spotifyembed {
+    border-radius: 12px;
+    width: 413px;
+    height: 413px;
+    margin-top: 40px;
+}
+
+.callout {
+    line-height: 5px;
+    text-align: center;
 }
 
 /* Larger screens CSS */
