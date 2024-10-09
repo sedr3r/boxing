@@ -194,7 +194,7 @@ a[class=content], a[class=contentlast] {
 
 .spotifyembed {
     border-radius: 12px;
-    width: 413px;
+    width: 70vw;
     height: 413px;
     margin-top: 40px;
     transition: 0.2s ease-in-out;
@@ -205,8 +205,8 @@ a[class=content], a[class=contentlast] {
 }
 
 .callout {
-    line-height: 5px;
     text-align: center;
+    width: 70vw;
 }
 
 /* Larger screens CSS */
@@ -248,6 +248,15 @@ a[class=content], a[class=contentlast] {
     video {
         width: 38vw;
     }
+
+    .spotifyembed {
+        width: 20vw;
+    }
+
+    .callout {
+        width: 20vw;
+    }
+    
 }
 
 
