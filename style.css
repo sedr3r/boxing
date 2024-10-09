@@ -226,8 +226,9 @@ a[class=content], a[class=contentlast] {
         justify-content: center;
         position: fixed;
         top: 15vh;
-        left: 8vw;
+        left: 10vw;
         margin: 0;
+        width: 40px;
     }
 
     .container {
