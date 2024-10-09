@@ -92,6 +92,11 @@ li {
     background-color: #0e0e0e;
     padding: 20px;
     border-radius: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+#contents:hover {
+    box-shadow: 0px 0px 10px rgba(0, 255, 229, 0.37);
 }
 
 .content, .contentlast {
@@ -192,6 +197,11 @@ a[class=content], a[class=contentlast] {
     width: 413px;
     height: 413px;
     margin-top: 40px;
+    transition: 0.2s ease-in-out;
+}
+
+.spotifyembed:hover {
+    box-shadow: 0px 0px 10px rgba(0, 255, 229, 0.37);
 }
 
 .callout {
